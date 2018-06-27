@@ -7,8 +7,7 @@ O Ardublock oficial atualmente só funciona com versões mais antigas da IDE do 
 * [Ardublock 20130712](https://ufpr.dl.sourceforge.net/project/ardublock/ardublock-all-20130712.jar)
 
 Abaixo temos uma versão do Arduino 1.6.9 com o Ardublock já configurado. Para utilizar é só descompactar em uma pasta e iniciar o aplicativo do arduino que está dentro da nova pasta gerada.
-
-[https://github.com/jaafreitas/atto/releases/download/v1.0/arduino-1.6.9-windows.ardublock.zip](https://github.com/jaafreitas/atto/releases/download/v1.0/arduino-1.6.9-windows.ardublock.zip)
+* [Arduino 1.6.9 + Ardublock 20130712](https://github.com/jaafreitas/atto/releases/download/v1.0/arduino-1.6.9-windows.ardublock.zip)
 
 # Capacitação
 * [Apresentação na formação de professores em maio de 2018 na Rede Municipal de São Paulo](http://bit.do/eg6Bs)
