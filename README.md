@@ -10,8 +10,8 @@ Abaixo temos uma versão do Arduino 1.6.9 com o Ardublock já configurado. Para 
 * [Arduino 1.6.9 + Ardublock 20130712](https://github.com/jaafreitas/atto/releases/download/v1.0/arduino-1.6.9-windows.ardublock.zip)
 
 # Capacitação
-* [Apresentação na formação de professores em maio de 2018 na Rede Municipal de São Paulo](http://bit.do/eg6Bs)
-* [Módulo introdutório para os POIEs da Rede Municipal de São Paulo](http://bit.do/emLtU)
+* [Apresentação na formação de professores em maio de 2018 na Rede Municipal de São Paulo](https://docs.google.com/presentation/d/1-66BY88nIFKMLU0I78xY9dok_Q6FcfNTvEGfrUrLoSI/edit?usp=sharing)
+* [Módulo introdutório para os POIEs da Rede Municipal de São Paulo](https://docs.google.com/presentation/d/1inzewvjghmF-ega02I1XdL2QNajITBSi9WvUowwFNfA/edit?usp=sharing)
 
 # Exemplos Ardublock
 ## [Blink](ExemplosArdublock/01.%20Blink.abp)
