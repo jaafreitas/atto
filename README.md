@@ -42,3 +42,28 @@ Demonstração de diversas funcionalidade no mesmo programa, entra ela temos:
 * Luminosidade (sensor analógico) controla um MotorDC (atuador PWM)
 * Sensor de distância ultrasônico (protocolo digital) controla um Buzzer (protocolo digital)
 
+# Módulo Bluetooth XBee (HC-06)
+O módulo bluetooth deve ser encaixado dentro do AttoBox. Para isso, remova a tampa com as legendas e encaixe o módulo seguindo a orientação do desenho em branco na placa verde.
+
+A seguir temos uma programação em C++ para Arduino que pode ser utilizada para testes iniciais. Para enviar esta programação, certifique-se que a chave bluetooth no AttoBox está na posição 2. Após feita a programação, mude a chave para a posição 1 para poder utilizar o módulo bluetooth. Este procedimento é necessário toda a vez que uma nova programação for feita.
+```cpp
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  while (Serial.available()) {
+    digitalWrite(LED_BUILTIN, HIGH);
+    Serial.print(".");
+    Serial.readString();
+    delay(1000);
+  }
+  digitalWrite(LED_BUILTIN, LOW);        
+  delay(100);
+}
+```
+O programa começa com a definição da velocidade da comunicação serial em 9600 bps. Quando recebemos qualquer comunicação por bluetooth, o LED interno ascende por 1 segundo. Caso exista alguma espécie de terminal no programa utilizado, este mostrará um ponto para confirmar o recebimento dos dados.
+
+Note que o módulo bluetooth HC-06 funciona apenas em modo escravo, ou seja, ele aguarda uma conexão de um outro dispositivo bluetooth como um computador, celular Android ou outros módulos bluetooth como o HC-05. Atenção: não funciona com iPhones ou outros dispositivos que sejam exclusivamente Bluetooth 4.0 (BLE).
+
+Para testar a comunicação, utilize um celular Android com qualquer programa com suporte ao bluetooth como por exemplo o BLEJoystick. Após estabelecer a comunicação bluetooth, o LED do módulo bluetooh que está dentro do AttoBox ficará acesso direto.
