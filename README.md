@@ -66,4 +66,4 @@ O programa começa com a definição da velocidade da comunicação serial em 96
 
 Note que o módulo bluetooth HC-06 funciona apenas em modo escravo, ou seja, ele aguarda uma conexão de um outro dispositivo bluetooth como um computador, celular Android ou outros módulos bluetooth como o HC-05. Atenção: não funciona com iPhones ou outros dispositivos que sejam exclusivamente Bluetooth 4.0 (BLE).
 
-Para testar a comunicação, utilize um celular Android com qualquer programa com suporte ao bluetooth como por exemplo o BLEJoystick. Após estabelecer a comunicação bluetooth, o LED do módulo bluetooh que está dentro do AttoBox ficará acesso direto.
+Para testar a comunicação, utilize um celular Android com qualquer programa com suporte ao bluetooth como por exemplo o [BLEJoystick](https://play.google.com/store/apps/details?id=iyok.com.blejoystick). Após estabelecer a comunicação bluetooth, o LED do módulo bluetooh que está dentro do AttoBox ficará acesso direto.
