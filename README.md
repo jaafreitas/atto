@@ -42,7 +42,7 @@ Demonstração de diversas funcionalidade no mesmo programa, entra ela temos:
 * Luminosidade (sensor analógico) controla um MotorDC (atuador PWM)
 * Sensor de distância ultrasônico (protocolo digital) controla um Buzzer (protocolo digital)
 
-# [Módulo Bluetooth XBee (HC-06)](#bluetooth)
+# [Módulo Bluetooth XBee (HC-06)](#módulo-bluetooth-xbee-hc-06)
 O módulo bluetooth deve ser encaixado dentro do AttoBox. Para isso, remova a tampa com as legendas e encaixe o módulo seguindo a orientação do desenho em branco na placa verde.
 
 A seguir temos uma programação em C++ para Arduino que pode ser utilizada para testes iniciais. Para enviar esta programação, certifique-se que a chave bluetooth no AttoBox está na posição 2. Após feita a programação, mude a chave para a posição 1 para poder utilizar o módulo bluetooth. Este procedimento é necessário toda a vez que uma nova programação for feita.
